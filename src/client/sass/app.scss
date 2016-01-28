@@ -1,0 +1,30 @@
+@import "compass/css3";
+
+$primary-color: #ffcc00;
+
+/**
+@mixin box-shadow($arguments) {
+    box-shadow: $arguments;
+    -webkit-box-shadow: $arguments;
+    -moz-box-shadow: $arguments;
+}
+*/
+header {
+    ul {
+       list-style-type: none;
+
+       li {
+            display: inline;
+            float: left;
+
+       a {
+            padding: 20px 80px;
+            color: $primary-color;
+        }
+      }
+    }
+}
+
+header {
+    @include box-shadow(blue 4px 4px 3px);
+}

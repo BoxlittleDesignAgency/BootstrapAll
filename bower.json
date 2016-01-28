@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap-angular",
+  "description": "Bootstrap All and Angular Training Provider",
+  "main": "",
+  "authors": [
+    "Demola Adebayo"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "client/lib",
+    "test",
+    "tests",
+    "./src/client/lib"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.15",
+    "angular-animate": "~1.4.8",
+    "angular-sanitize": "~1.4.9",
+    "font-awesome": "~4.5.0",
+    "foundation": "~5.5.3"
+  },
+  "resolutions": {
+    "angular": "1.4.9"
+  }
+}
